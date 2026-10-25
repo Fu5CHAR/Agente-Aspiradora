@@ -1,0 +1,48 @@
+# ==========================================
+# Python (Compilados y Entornos Virtuales)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Distribución y paquetes de Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================================
+# Visual Studio Code
+# ==========================================
+.vscode/
+
+# ==========================================
+# Seguridad y Configuración Local
+# ==========================================
+.env
+.env.*
+*.secret
+*.pem
+*.key
+
+# ==========================================
+# Exclusivo de Windows (Sistema de Archivos)
+# ==========================================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# Jupyter Notebooks y Logs
+# ==========================================
+.ipynb_checkpoints
+*.log
